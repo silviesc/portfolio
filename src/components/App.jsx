@@ -1,13 +1,14 @@
 import Landing from "./Landing";
 import '../scss/app.scss';
+import Contact from "./Contact";
 
 const App = () => {
   return (
     <>
-      <section className="landing-section"><Landing/></section>
+      <section><Landing/></section>
       <section>Projects</section>
       <section>About me</section>
-      <section>Let's talk</section>
+      <section><Contact/></section>
     </>
   )
 }

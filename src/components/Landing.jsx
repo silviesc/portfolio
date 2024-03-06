@@ -1,21 +1,23 @@
 import "../scss/landing.scss";
-import Navbar from "./Navbar";
+import Header from "./Header";
+import Hero from "./Hero";
+import Scroll from "./Scroll";
 import video from "../images/background.mp4";
 
 const Landing = () => {
   return (
     <>
-      <header className="header">
-        <Navbar />
-        <div className="video-background">
-          <video autoPlay muted loop className="video">
-            <source src={video} type="video/mp4" />
-            Tu navegador no soporta videos HTML5.
-          </video>
-        </div>
-      </header>
+      <Header />
+      <div className="landing">
+        <video className="video-background" autoPlay muted loop>
+          <source src={video} type="video/mp4" />
+        </video>
+        <Hero />
+        <Scroll />
+      </div>
     </>
   );
 };
 
 export default Landing;
+

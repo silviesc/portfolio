@@ -11,7 +11,8 @@ html {
 }
 body {
     background-color: #0c0c1d;
-    color: lightgrey;
+    color: white;
+    padding: 20px;
 }
 
 li {
@@ -27,8 +28,3 @@ section {
     height: 100vh;
     scroll-snap-align: center;
 }
-
-.landing-section + section .video-background {
-    display: none;
-  }
-  

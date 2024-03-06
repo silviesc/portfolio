@@ -1,0 +1,48 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 20px;
+
+    &__title {
+        text-align: start;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        &--input {
+            background-color: transparent;
+            border: none;
+            border-bottom: 2px solid rgb(0, 191, 255);
+            font-size: 16px;
+            color: white;
+            padding: 10px;
+        }
+
+        &--btn {
+            width: 150px;
+            height: 30px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 0 0 10px 0;
+            background-color: rgb(0, 191, 255);
+            border: none;
+            margin-top: 20px;
+        }
+
+        &--send {
+            width: 20px;
+        }
+    }
+
+    &__footer {
+        font-size: 12px;
+        color: lightgray;
+    }
+}

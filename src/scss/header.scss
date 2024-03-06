@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+
+    &__logo {
+        width: 50px;
+    
+        &:hover {
+            transform: scale(1.1);
+            transition: transform 0.4s ease;
+        }
+    }
+}
